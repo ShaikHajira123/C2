@@ -1,0 +1,36 @@
+#container{
+    display:flex;
+ }
+ #sidebar{
+     flex:2;
+      border:1px solid black;
+      height:800px;
+ }
+ #main{
+     flex:8;
+     border:1px solid black;
+    
+ }
+ p{
+   border:1px solid rgb(75, 74, 74);
+   height:420px;
+   margin-top:-1px;
+ }
+ img{
+   width:500px;
+   height:420px;
+   border:1px solid rgb(75, 74, 74);
+ }
+ #main>div{
+   display:flex;
+   font-size:22px;
+   /* border:1px solid rgb(88, 88, 88); */
+   margin:20px;
+ }
+ #sidebar>div{
+   margin:50px;
+ }
+ h1{
+   text-align:center;
+ }
+ 
